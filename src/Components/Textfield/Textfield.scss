@@ -1,0 +1,19 @@
+.textfield{
+    padding: 0 10px;
+    margin: 40px 0;
+
+    &__input{
+        width: 100%;
+        font-size: 26px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        transition: .1s;
+        background-color: transparent;
+
+        // &:focus{
+        //     border-bottom: 2px solid black;
+        //     transition: .1s;
+        // }
+    }
+}

@@ -12,6 +12,7 @@ function TodoList({todos = [],removeTodo, setAchieved}) {
                 achieved={el.achieved}
                 removeTodo={removeTodo}
                 setAchieved={setAchieved}
+                created={el.created}
                 >{el.title}</TodoItem>
             })}
         </div>
